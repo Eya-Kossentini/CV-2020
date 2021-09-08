@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact </title>
+     <link rel="stylesheet" href="./Assets/css/CV.css">
+  </head>
+
+  
+  <body>
+    
+    <div class="header" style="position: relative;
+    text-align: center;
+    color: black;">
+    <img class="headerImg" src="./Assets/images/aquarelle.png" style="width:100%;  height: 20vh"/>
+    <div class="centered" style=" position: absolute;
+         top: 15%;
+         left: 50%;
+         font-size: 100px;
+         font-family: 'Andalus';
+         font-weight: bold;
+         transform: translate(-50%, -50%);" ><br>Contact</div>
+
+  </div>
+
+  <form action="./Assets/php/resultat-cv.php" onsubmit="alert('Merci pour votre inscription à mon site ')" method="post" enctype="multipart/form-data" >
+<br><br><br><br>
+    <div class="row" align="center">
+      <div class="col">
+
+        <h4> Contact </h4>
+
+        <span class="salutations"> <img src="./Assets/php/resultat-cv.php" class="iconcv">
+        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3BQG1oD67xTneNh2HhlzXPhw%3D%3D" title="Le site du mon Linkedin"> Linkedin </a><br><br>
+
+        <img src="./Assets/images/mail.png" class="iconcv"> eya.kossentini@esprit.tn<br><br>
+        <img src="./Assets/images/tel.png" class="iconcv">  +216 54 384 833  <br><br>
+        <img src="./Assets/images/lieu.png" class="iconcv">Riadh Andalous,Ariana,Tunis <br><br>
+
+        </span>
+      </div>
+
+      <div class="col">
+        <h4> Pour me contacter </h4><br><br>
+       <span class="salutations">
+        <table align="center">
+
+          <tr><td>Entrez votre nom </td><td><input type="text" name="Nom" required="required" /></td></tr>
+          <tr><td>Entrez votre prenom  </td><td><input type="text" name="Prenom" required="required"/></td></tr>
+          <tr><td>Entrez votre email  </td><td><input type="email" name="email" required="required" /></td></tr>
+          <tr><td>Entrez votre profession </td><td><input type="text" name="Profession" required="required" /></td></tr>
+          <tr><td>Entrez votre numero de contact </td><td><input type="text" name="Contact" required="required" /></td></tr>
+          <tr><td>Entrez votre adresse  </td><td><input type="text" name="Adresse" required="required" /></td></tr>
+          <tr><td>Entrez votre demande  </td><td><input type="text" name="DemandeOffre" required="required" /></td></tr>
+          <tr><td><input type="reset" value="Annuler" name="Annuler" /></td><td><input align="right" type="submit" value="Valider" name="Valider"/></td></tr>
+        </table>
+      </span>
+    </div>
+  </div>
+
+</form>
+<br><br><br>
+
+<br><br><center><a href="CV.html"> <span class="introduction">Revenir à la page d'accueil</span> </a></center><br>
+
+</body>
+</html>
